@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ====== COMPONENT STYLES ====== */
+@layer components {
+  .input {
+    @apply border px-3 py-2 rounded w-full;
+  }
+
+  .btn-primary {
+    @apply bg-blue-600 text-white px-3 py-2 rounded hover:bg-blue-700;
+  }
+
+  .btn-secondary {
+    @apply bg-slate-200 px-3 py-2 rounded hover:bg-slate-300;
+  }
+
+  .btn-danger {
+    @apply bg-red-600 text-white px-3 py-2 rounded hover:bg-red-700;
+  }
+
+  .card {
+    @apply bg-white rounded shadow p-4;
+  }
+
+  .page-title {
+    @apply text-xl font-bold mb-4;
+  }
+}

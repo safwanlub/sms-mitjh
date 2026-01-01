@@ -1,0 +1,2 @@
+INGAT:
+venv\Scripts\activate
